@@ -1,5 +1,5 @@
 {
-  "name": "drop-down-menu",
+  "name": "@ikem2023/drop-down-menu",
   "version": "1.0.0",
   "description": "A package for creating simple drop down menus in your website.",
   "main": "./src/index.js",
@@ -29,5 +29,8 @@
     "webpack": "^5.77.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.2"
+  },
+  "dependencies": {
+    "@ikem2023/drop-down-menu": "^1.0.0"
   }
 }
