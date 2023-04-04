@@ -1,0 +1,23 @@
+.drop-down {
+    position: relative;
+}
+
+.drop-down-content {
+    width: fit-content;
+    position: absolute;
+    left: 0;
+    pointer-events: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    background-color: azure;
+    box-shadow: 3px 3px 5px solid rgb(48, 48, 48);
+    position: relative;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    pointer-events: auto;
+}
